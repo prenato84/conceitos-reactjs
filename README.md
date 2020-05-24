@@ -26,6 +26,7 @@ Desafio 3 do Bootcamp GoStack 11
 
 <p align="center">
   <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#keyboard-instalação-e-execução-dos-testes">Instalação e Execução dos Testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#template-da-aplicação">Template da aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#funcionalidades-da-aplicação-instruções">Funcionalidades da aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#especificação-dos-testes-instruções">Específicação dos testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -37,6 +38,54 @@ Desafio 3 do Bootcamp GoStack 11
 Nesse desafio foi criada uma aplicação para treinar o que aprendi até agora sobre ReactJS!
 
 Foi dado continuidade ao desenvolvimento da aplicação que irá armazenar repositórios do meu portfólio. O backend foi desenvolvido no último desafio utilizando o Node.js **[Link para o Desafio 3](https://github.com/prenato84/conceitos-nodejs)**
+
+### :keyboard: Instalação e Execução dos Testes
+
+- Clone este repositório
+
+```
+> git clone https://github.com/prenato84/conceitos-reactjs
+```
+
+- Navegue até o diretório principal do projeto
+
+```
+> cd conceitos-reactjs
+```
+
+- Instale as dependências com o Yarn
+
+```
+yarn
+```
+
+- Rode os testes
+
+```
+yarn test
+```
+
+<p align="center">
+  <img src="./assets/tests.png">
+</p>
+
+### :keyboard: Execução do Projeto
+
+Como esse projeto é apenas o frontend da aplicação, é necessário antes instalar e executar o projeto do backend conforme instruções do repositório dele **[Conceitos do Node.js](https://github.com/prenato84/conceitos-nodejs)**.
+
+Com o backend iniciado, agora é possível que o frontend realiza as chamadas à API Rest disponibilizada por ele.
+
+Para a execução do front, após ter instalado as dependências, basta iniciar o projeto:
+
+```
+yarn start
+```
+
+Uma página como esta será exibida permitindo adição e remoção de repositórios.
+
+<p align="center">
+  <img src="./assets/project.png">
+</p>
 
 ### Template da aplicação
 
@@ -58,7 +107,7 @@ Agora que você já está com o template clonado, e pronto para continuar, você
 
 - **`Remover um repositório da sua API`**: Para cada item da sua lista, deve possuir um botão com o texto **Remover** que, ao clicar, irá chamar uma função para remover esse item da lista do seu frontend e da sua API.
 
-### Específicação dos testes
+### Especificação dos testes (Instruções)
 
 Em cada teste, tem uma breve descrição no que sua aplicação deve cumprir para que o teste passe.
 

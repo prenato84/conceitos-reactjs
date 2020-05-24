@@ -37,7 +37,7 @@ Desafio 3 do Bootcamp GoStack 11
 
 Nesse desafio foi criada uma aplicação para treinar o que aprendi até agora sobre ReactJS!
 
-Foi dado continuidade ao desenvolvimento da aplicação que irá armazenar repositórios do meu portfólio. O backend foi desenvolvido no último desafio utilizando o Node.js **[Link para o Desafio 3](https://github.com/prenato84/conceitos-nodejs)**
+Foi dado continuidade ao desenvolvimento da aplicação que irá armazenar repositórios do meu portfólio. O backend foi desenvolvido no último desafio utilizando o Node.js **[Link para o Desafio 2](https://github.com/prenato84/conceitos-nodejs)**
 
 ### :keyboard: Instalação e Execução dos Testes
 

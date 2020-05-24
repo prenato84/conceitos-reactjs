@@ -84,7 +84,7 @@ yarn start
 Uma página como esta será exibida permitindo adição e remoção de repositórios.
 
 <p align="center">
-  <img src="./assets/project.png">
+  <img src="./assets/project_index.png">
 </p>
 
 ### Template da aplicação
